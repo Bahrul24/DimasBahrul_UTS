@@ -1,0 +1,120 @@
+/* Bagian header*/
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navigasi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2C3E50; /* Warna latar belakang navigasi */
+    color: #FFFFFF; /* Warna teks navigasi */
+    padding: 20px;
+}
+
+.logo img {
+    width: 50px; /* Sesuaikan lebar logo */
+    height: auto; /* Atur ketinggian otomatis agar tidak merubah proporsi */
+    margin-right: 20px; /* Jarak antara logo dan link */
+}
+
+.link {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.navbar li {
+    border-radius: 5px;
+    padding: 10px 15px;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #FFFFFF; /* Warna teks link */
+}
+
+.navbar li a.active,
+.navbar li:hover {
+    background-color: #3498DB; /* Warna latar belakang saat aktif atau hover */
+    border-color: #2980B9; /* Warna border saat aktif atau hover */
+}
+
+/* Bagian isi container */
+.container {
+    padding: 20px;
+    background-color: #ECF0F1; /* Warna latar belakang container */
+}
+
+.isi {
+    text-align: center;
+}
+
+.isi h2{
+    color: #2C3E50; /* Warna teks heading */
+}
+
+.isi p{
+    color: #34495E; /* Warna teks paragraf */
+}
+
+/* Bagian Profile */
+.profil {
+    padding: 50px;
+    background-color: #3498DB; /* Warna latar belakang profil */
+}
+
+.profil h2 {
+    color: #FFFFFF; /* Warna teks heading */
+}
+
+/* Untuk bagian card profile*/
+.card {
+    background-color: #FFFFFF; /* Warna latar belakang card */
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+    max-width: 400px;
+}
+
+.card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.card h3 {
+    color: #2C3E50; /* Warna teks heading */
+}
+
+.card p {
+    color: #34495E; /* Warna teks paragraf */
+}
+
+.card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.card li {
+    margin-bottom: 10px;
+    color: #34495E; /* Warna teks list */
+}
+
+/* Bagian Footer*/
+footer {
+    background-color: #2C3E50; /* Warna latar belakang footer */
+    color: #FFFFFF; /* Warna teks footer */
+    text-align: center;
+    padding: 20px;
+}

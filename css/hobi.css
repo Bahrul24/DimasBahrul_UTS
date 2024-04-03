@@ -1,0 +1,128 @@
+/* Bagian header*/
+body {
+    font-family: sans-serif;
+}
+
+.navigasi {
+    display: flex;
+    background-color: #2C3E50; /* Warna latar belakang navigasi */
+    color: #FFFFFF; /* Warna teks navigasi */
+    align-items: center;
+    padding: 20px;
+}
+
+.logo img {
+    width: 50px; /* Sesuaikan lebar logo */
+    height: auto; /* Atur ketinggian otomatis agar tidak merubah proporsi */
+    margin-right: 20px; /* Jarak antara logo dan link */
+}
+
+.link {
+    position: absolute;
+    right: 10px;
+}
+
+.navbar {
+    display: flex;
+    gap: 1em;
+}
+
+.navbar li {
+    border-radius: 5px;
+    padding: 10px;
+    border: 2px solid #2C3E50; /* Warna border */
+    list-style-type: none;
+    transition: background-color 0.8s ease;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #FFFFFF; /* Warna teks link */
+}
+
+.navbar li a.active {
+    background-color: #3498DB; /* Warna latar belakang saat aktif */
+    color: #FFFFFF; /* Warna teks saat aktif */
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.navbar li:hover {
+    background-color: #3498DB; /* Warna latar belakang saat hover */
+}
+
+.navbar li:hover a {
+    color: #FFFFFF; /* Warna teks saat hover */
+}
+
+/* Bagian isi container */
+.container {
+    margin: 0px;
+    padding: 0px;
+}
+
+.isi {
+    padding: 30px;
+    text-align: center;
+}
+
+.isi h2 {
+    color: #2C3E50; /* Warna teks heading */
+}
+
+.card {
+    padding: 10px;
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.membaca {
+    border-radius: 10px;
+    background-color: #EBE0D0;
+    width: 40%;
+    box-shadow: white;
+    font-family: sans-serif;
+    opacity: 0.7;
+    text-align: center;
+}
+
+.membaca h2 {
+    color: #A91B60; /* Warna teks heading */
+}
+
+.membaca p {
+    color: #A91B60; /* Warna teks paragraf */
+}
+
+.membaca,
+.bermain {
+    width: 48%;
+}
+
+.bermain {
+    border-radius: 10px;
+    background-color: #EBE0D0;
+    width: 50%;
+    box-shadow: white;
+    font-family: sans-serif;
+    opacity: 0.7;
+    text-align: center;
+    margin-left: auto;
+}
+
+.bermain h2 {
+    color: #A91B60; /* Warna teks heading */
+}
+
+.bermain p {
+    color: #A91B60; /* Warna teks paragraf */
+}
+
+/* Bagian Footer*/
+footer {
+    background-color: #EBE0D0;
+    color: #A91B60; /* Warna teks footer */
+    text-align: center;
+    padding: 10px;
+}
